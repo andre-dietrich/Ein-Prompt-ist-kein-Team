@@ -2,13 +2,14 @@
 author:   André Dietrich
 email:    LiaScript@web.de
 version:  0.1.0
+edit:     true
 language: de
 narrator: Deutsch Male
+
 comment:  Ein Prompt ist kein Team — Warum KI-Agenten für komplexe Lehrprojekte nötig sind. Vortrag beim University:Future Festival 2026.
 
 import: https://raw.githubusercontent.com/liaScript/mermaid_template/master/README.md
 import: https://raw.githubusercontent.com/LiaTemplates/Chat-Simulation/main/README.md
-
 -->
 
 # Ein Prompt ist kein Team
@@ -22,26 +23,31 @@ Warum KI-Agenten für komplexe Lehrprojekte nötig sind
 
 ![Geteilte Illustration: links eine einzelne überforderte Person, die mit zu vielen Werkzeugen jongliert; rechts eine koordinierte Agenten-Küchenbrigade mit klaren Rollen.](assets/images/einzelprompt-vs-agenten-brigade.png)
 
-Präsentation: https://github.com/andre-dietrich/Ein-Prompt-ist-kein-Team
+    {{1}}
+* GitHub: https://github.com/andre-dietrich/Ein-Prompt-ist-kein-Team
+* Editor: 
+* LiaScript:
 
 ## Das generische Ergebnis-Dilemma
 
-      {{0}}
+    {{0}}
 > Du öffnest ChatGPT. Gibst deinen besten Prompt ein.
 > 
 > Und ärgerst dich über das Ergebnis.
 
-      {{1}}
-> 🙋 Wer hat sich schon mal über ein KI-Ergebnis geärgert?
+    {{1}}
+<!-- data-show data-ylim="0,100"-->
+| Reaktion            |   Stimmen |
+|---------------------|----------:|
+| {3}{Zufrieden 🥳}   |  {3}{1 %} |
+| {2}{Neutral 😐}     | {2}{20 %} |
+| {3}{Unzufrieden 🙁} | {3}{79 %} |
 
-      {{2}}
+    {{4}}
 ![Unsicherheitskegel wie bei einer Wettervorhersage — der wahrscheinlichste Pfad liegt in der Mitte, die Ränder weiten sich mit der Zeit auf. Ein Punkt (das eigene Projekt) liegt abseits der Mitte im Unsicherheitsbereich.](assets/images/uncertainty-cone.png)
 
 
 ### KI als Ein-/Ausgabe-Maschine
-
-    --{{0}}--
-Das eigentliche Problem liegt in der Art, wie wir KI benutzen.
 
 Wir behandeln KI wie ein Programm: eine Eingabe, eine Ausgabe, fertig.
 
@@ -57,9 +63,9 @@ Aber Conversational AI braucht **Dialog** —
 sie muss sich auf dich einschwingen,
 auf dein Projekt, deinen Kontext, deine Lernenden.
 
-    --{{2}}--
-Ein einziger Prompt kann das nicht leisten. Das ist wie ein Rezept schreiben, ohne zu wissen, wer isst — und ohne jemals nachzufragen.
+{{3}} __Quelle:__ https://liascript.github.io/blog/creating-interactive-diagrams-with-chatgpt/
 
+      {{3}}
 ``` html -Visualization-Template
 The following LiaScript code generates an interactive chart on different types
 of quadratic functions, where the user can manipulate certain parameters.
@@ -117,17 +123,17 @@ let option = {
 
 ### Die Dosensuppe
 
-      {{1}}
+    {{1}}
 ![Zweigeteiltes Bild: links ein elegantes Restaurant mit lächelnden Gästen, rechts die versteckte Küche, in der identische Dosen Suppe für alle Gäste geöffnet werden.](assets/images/canned-soup-restaurant.png)
 
-      {{2}}
+    {{2}}
 Das Restaurant sieht toll aus.\
 Aber zu essen bekommt jede\*r **das Gleiche aus der Dose**.
 
-      {{3}}
+    {{3}}
 > _Die Komplexität verschwindet aus der Oberfläche, nicht aus dem Problem._
 
-      {{4}}
+    {{4}}
 <details>
 
 <summary>Wer mir nicht glaubt ...</summary>
@@ -138,19 +144,18 @@ Aber zu essen bekommt jede\*r **das Gleiche aus der Dose**.
 
 ## Was wir eigentlich brauchen
 
- {{1}}
+    {{1}}
 ![Eine Person kocht fröhlich in ihrer eigenen, bunten Küche — mehrere Arbeitsschritte gleichzeitig, offene Rezeptbücher, kreative und selbstbestimmte Atmosphäre.](assets/images/own-kitchen-cooking.png)
 
 ### Die Küchenbrigade
 
-      {{1}}
+    {{1}}
 ![Professionelle Küche mit vier Arbeitsstationen, an jeder ein freundlicher KI-Agent (Teaching, Coauthor, Artist, Research). In der Mitte das geteilte Rezeptbuch journal.md, mit gepunkteten Linien zu allen Agenten verbunden.](assets/images/kitchen-brigade-agents.png)
 
-      {{2}}
+    {{2}}
 > Das entscheidende Prinzip: Kontext wird nicht jedes Mal neu geprompted — er wird als Artefakt definiert und von allen Agenten geteilt.
 
 ### Agenten, Tasks & Artefakte
-
 
       {{1}}
 ![Dreistufiges Diagramm: oben zwei freundliche Roboter-Agenten (teal und grün), darunter vier amberfarbene Task-Karten (Aufgabe 1.1, 1.2, 2.1, 2.2), unten fünf Datei-Artefakte. Pfeile „Eingabe" und „Ausgabe" zeigen, welche Dateien ein Task liest und welche er erzeugt.](assets/images/agenten-tasks-artefakte.png)
@@ -175,32 +180,45 @@ Aber zu essen bekommt jede\*r **das Gleiche aus der Dose**.
 
 ## Demo Or Die
 
-**Setup:**
+     {{1}}
+* **Setup:**
 
-- __VS Code Editor:__ https://code.visualstudio.com
-- __"Desktop" Agents:__
-  1. GitHub Copilot (Kostenloser Teacher-Account)\
-     https://docs.github.com/en/education/about-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher
+  - __VS Code Editor:__ https://code.visualstudio.com
+  - __"Desktop" Agents:__
+    1. GitHub Copilot (Kostenloser Teacher-Account)\
+       https://docs.github.com/en/education/about-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher
 
-  2. Codex (by ChatGPT)\
-     https://openai.com/de-DE/codex/
+    2. Codex (by ChatGPT)\
+       https://openai.com/de-DE/codex/
 
-  3. Claude Code\
-     https://code.claude.com
+    3. Claude Code\
+       https://code.claude.com
 
-  4. ...
+    4. ...
 
-  5.  *und viele Weitere ...*
+    99. *und viele Weitere ...*
 
-**Teaching-Agent:**
+    {{2}}
+* **Teaching-Agent:**
 
-https://github.com/LiaScript/teaching-agent
+  https://github.com/LiaScript/teaching-agent
+
+    {{3}}
+* **Original BMAD-Method:**
+
+  https://github.com/bmad-code-org/BMAD-METHOD
+
+    {{4}}
+* **Vorlesung: Databases Unlocked**
+
+  - GitHub: https://github.com/andre-dietrich/Datenbankensysteme-Vorlesung
+  - WebSeite: https://andre-dietrich.github.io/Datenbankensysteme-Vorlesung/
 
 ## Danke & Links
 
 
 - 🌐 **LiaScript:** https://liascript.github.io
-- 🤖 **Teaching-Agent:** _(Link folgt — GitHub)_
+- 🤖 **Teaching-Agent:** https://github.com/LiaScript/teaching-agent
 - 💬 **Chat-Simulation Template:** https://github.com/LiaTemplates/Chat-Simulation
 - 🎓 **University:Future Festival:** https://festival.hfd.digital
 
