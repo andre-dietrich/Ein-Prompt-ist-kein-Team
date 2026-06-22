@@ -22,6 +22,8 @@ Warum KI-Agenten für komplexe Lehrprojekte nötig sind
 
 ![Geteilte Illustration: links eine einzelne überforderte Person, die mit zu vielen Werkzeugen jongliert; rechts eine koordinierte Agenten-Küchenbrigade mit klaren Rollen.](assets/images/einzelprompt-vs-agenten-brigade.png)
 
+Präsentation: https://github.com/andre-dietrich/Ein-Prompt-ist-kein-Team
+
 ## Das generische Ergebnis-Dilemma
 
       {{0}}
@@ -115,24 +117,24 @@ let option = {
 
 ### Die Dosensuppe
 
-    --{{0}}--
-Und jetzt zu den kommerziellen Plattformen, die dieses Problem angeblich lösen.
-
       {{1}}
 ![Zweigeteiltes Bild: links ein elegantes Restaurant mit lächelnden Gästen, rechts die versteckte Küche, in der identische Dosen Suppe für alle Gäste geöffnet werden.](assets/images/canned-soup-restaurant.png)
 
-Das Restaurant sieht toll aus.
-
       {{2}}
-Aber zu essen bekommt jede*r **das Gleiche aus der Dose**.
-
-    --{{2}}--
-Viele KI-Plattformen für Lehrende verstecken Prompts hinter grafischen Oberflächen. Sie versprechen Planung per Klick — während im Hintergrund dieselben Sprachmodelle laufen wie überall sonst.
+Das Restaurant sieht toll aus.\
+Aber zu essen bekommt jede\*r **das Gleiche aus der Dose**.
 
       {{3}}
-> Die Komplexität verschwindet aus der Oberfläche,
-> nicht aus dem Problem.
+> _Die Komplexität verschwindet aus der Oberfläche, nicht aus dem Problem._
 
+      {{4}}
+<details>
+
+<summary>Wer mir nicht glaubt ...</summary>
+
+!?[38C3 - Chatbots im Schulunterricht!?](https://www.youtube.com/watch?v=o6DBGdnA1P4)
+
+</details>
 
 ## Was wir eigentlich brauchen
 
@@ -149,28 +151,21 @@ Viele KI-Plattformen für Lehrende verstecken Prompts hinter grafischen Oberflä
 
 ### Agenten, Tasks & Artefakte
 
-    --{{0}}--
-Ganz allgemein ist ein agentischer Workflow so aufgebaut: ein Agent steuert mehrere Tasks. Jeder Task liest eine Datei als Eingabe und erzeugt eine andere als Ausgabe — und die Ausgabe des einen Tasks wird zur Eingabe des nächsten.
 
       {{1}}
 ![Dreistufiges Diagramm: oben zwei freundliche Roboter-Agenten (teal und grün), darunter vier amberfarbene Task-Karten (Aufgabe 1.1, 1.2, 2.1, 2.2), unten fünf Datei-Artefakte. Pfeile „Eingabe" und „Ausgabe" zeigen, welche Dateien ein Task liest und welche er erzeugt.](assets/images/agenten-tasks-artefakte.png)
 
-    --{{1}}--
-Du bleibst nicht bei einem Agenten. Ein zweiter Agent bringt eigene Tasks mit und arbeitet auf seinen eigenen Dateien. So setzt du dir Stück für Stück ein ganzes Team zusammen — jeder mit klarer Aufgabe.
-
 ### Superpower -> Vorkoster
 
       {{1}}
-Du kannst Agenten bauen, die deine **Lernenden verkörpern** — mit ihrem Vorwissen, ihren Erwartungen, ihren typischen Stolperstellen.
+![Eine KI-Agentin mit Schürze serviert einem runden Tisch ein Tablett mit „Kursmaterial" und „KI-Suppe". Vier kleine Lernenden-Roboter halten Bewertungskarten hoch — drei positiv, einer kritisch mit Fragezeichen.](assets/images/learner-personas-review.png)
 
       {{2}}
-![Eine KI-Agentin mit Schürze serviert einem runden Tisch ein Tablett mit „Kursmaterial" und „KI-Suppe". Vier kleine Lernenden-Roboter halten Bewertungskarten hoch — drei positiv, einer kritisch mit Fragezeichen.](assets/images/learner-personas-review.png)
+> Du kannst Agenten bauen, die deine **Lernenden verkörpern** — mit ihrem Vorwissen, ihren Erwartungen, ihren typischen Stolperstellen.
 
 ### Rezepte statt Prompts
 
       {{1}}
-<div>
-
 | Prompt                     | Workflow                   |
 |----------------------------|----------------------------|
 | einmalig                   | wiederholbar               |
@@ -178,14 +173,28 @@ Du kannst Agenten bauen, die deine **Lernenden verkörpern** — mit ihrem Vorwi
 | Blackbox                   | lesbar, anpassbar, teilbar |
 | Dosensuppe                 | dein Rezept                |
 
-</div>
-
-    --{{1}}--
-Workflows, Agenten, Tasks & Artefakte sind keine Blackboxes. Sie sind Textdateien — lesbar, anpassbar, und — das ist der Punkt — teilbar. Das ist Open Source für Didaktik.
-
 ## Demo Or Die
 
+**Setup:**
 
+- __VS Code Editor:__ https://code.visualstudio.com
+- __"Desktop" Agents:__
+  1. GitHub Copilot (Kostenloser Teacher-Account)\
+     https://docs.github.com/en/education/about-github-education/github-education-for-teachers/apply-to-github-education-as-a-teacher
+
+  2. Codex (by ChatGPT)\
+     https://openai.com/de-DE/codex/
+
+  3. Claude Code\
+     https://code.claude.com
+
+  4. ...
+
+  5.  *und viele Weitere ...*
+
+**Teaching-Agent:**
+
+https://github.com/LiaScript/teaching-agent
 
 ## Danke & Links
 
