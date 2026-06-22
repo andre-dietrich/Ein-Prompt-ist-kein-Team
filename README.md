@@ -17,16 +17,19 @@ import: https://raw.githubusercontent.com/LiaTemplates/Chat-Simulation/main/READ
 Warum KI-Agenten für komplexe Lehrprojekte nötig sind
 -----------------------------------------------------
 
+![Geteilte Illustration: links eine einzelne überforderte Person, die mit zu vielen Werkzeugen jongliert; rechts eine koordinierte Agenten-Küchenbrigade mit klaren Rollen.](assets/images/einzelprompt-vs-agenten-brigade.png)
+
+    {{1}}
 > University:Future Festival 2026
 >
 > -- André Dietrich · TU Bergakademie Freiberg · LiaScript
 
-![Geteilte Illustration: links eine einzelne überforderte Person, die mit zu vielen Werkzeugen jongliert; rechts eine koordinierte Agenten-Küchenbrigade mit klaren Rollen.](assets/images/einzelprompt-vs-agenten-brigade.png)
-
-    {{1}}
+    {{2}}
 * GitHub: https://github.com/andre-dietrich/Ein-Prompt-ist-kein-Team
-* Editor: 
-* LiaScript:
+* Editor: https://liascript.github.io/LiveEditor/?/show/file/https://raw.githubusercontent.com/andre-dietrich/Ein-Prompt-ist-kein-Team/refs/heads/main/README.md
+* LiaScript: https://liascript.github.io/course/?https://raw.githubusercontent.com/andre-dietrich/Ein-Prompt-ist-kein-Team/refs/heads/main/README.md
+
+
 
 ## Das generische Ergebnis-Dilemma
 
