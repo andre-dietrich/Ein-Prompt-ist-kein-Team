@@ -200,6 +200,11 @@ Aber zu essen bekommt jede\*r **das Gleiche aus der Dose**.
     4. ...
 
     99. *und viele Weitere ...*
+  - __Zubehör:__
+    - LiaScript-Preview:\
+      https://marketplace.visualstudio.com/items?itemName=LiaScript.liascript-preview
+    - chrome-devtools-mcp:\
+      https://www.npmjs.com/package/chrome-devtools-mcp
 
     {{2}}
 * **Teaching-Agent:**
